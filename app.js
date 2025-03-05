@@ -14,7 +14,7 @@ config({ path: './config.env' });
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: '*', // This allows requests from any origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
