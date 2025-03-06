@@ -1,7 +1,5 @@
 import mongoose from "mongoose";
 import { config } from "dotenv";
-
-// Load environment variables from .env file
 config();
 
 export const connection = () => {

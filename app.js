@@ -14,7 +14,7 @@ config({ path: './config.env' });
 
 app.use(
   cors({
-    origin: 'https://auth-app-v2.onrender.com', // This allows requests from any origin
+    origin: 'https://auth-app-v2.onrender.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
